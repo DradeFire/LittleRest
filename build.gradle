@@ -1,0 +1,34 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.6.10-RC'
+}
+
+group 'ru.dradefire.library'
+version '1.0'
+
+apply plugin: 'kotlin'
+apply plugin: 'maven-publish'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation "com.squareup.okhttp3:okhttp:4.10.0"
+    implementation "com.squareup.okhttp3:logging-interceptor:4.10.0"
+    implementation 'com.google.code.gson:gson:2.10.1'
+    testImplementation("com.squareup.okhttp3:mockwebserver:4.10.0")
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'ru.dradefire.library'
+            artifactId = 'little-rest'
+            version = '1.0'
+
+            from components.java
+        }
+    }
+}

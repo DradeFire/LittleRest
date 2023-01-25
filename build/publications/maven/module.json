@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ru.dradefire.library",
+    "module": "little-rest",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "little-rest-0.1.jar",
+          "url": "little-rest-0.1.jar",
+          "size": 903,
+          "sha512": "e78c22ce721b658450bd59b5023b98179e293844f280a065eb43cc2816e9570351ac61224a3ad5cd2729d8b53edf13a8ccec686915cfa2e5e2321e245a5b15bd",
+          "sha256": "bd17d4ff99b9d84cebb2edff493c2174471384d339181667da5485ee790897eb",
+          "sha1": "4bd10627143a23235e4f03bf3276d40895b7dbfb",
+          "md5": "7b78f428bb46ac5d1530145f538bb3d9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10-RC"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "little-rest-0.1.jar",
+          "url": "little-rest-0.1.jar",
+          "size": 903,
+          "sha512": "e78c22ce721b658450bd59b5023b98179e293844f280a065eb43cc2816e9570351ac61224a3ad5cd2729d8b53edf13a8ccec686915cfa2e5e2321e245a5b15bd",
+          "sha256": "bd17d4ff99b9d84cebb2edff493c2174471384d339181667da5485ee790897eb",
+          "sha1": "4bd10627143a23235e4f03bf3276d40895b7dbfb",
+          "md5": "7b78f428bb46ac5d1530145f538bb3d9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BaseTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-01-22T20:38:20" hostname="DESKTOP-6RKN000" time="0.558">
+  <properties/>
+  <testcase name="api-test-get-timeout" classname="BaseTest" time="0.385"/>
+  <testcase name="api-test-delete" classname="BaseTest" time="0.102"/>
+  <testcase name="api-test-specific-code" classname="BaseTest" time="0.007"/>
+  <testcase name="api_test_get" classname="BaseTest" time="0.018"/>
+  <testcase name="api-test-put" classname="BaseTest" time="0.007"/>
+  <testcase name="api-test-post-auth-token" classname="BaseTest" time="0.008"/>
+  <testcase name="api-test-post-auth-data" classname="BaseTest" time="0.008"/>
+  <testcase name="api-test-patch" classname="BaseTest" time="0.007"/>
+  <testcase name="api-test-not-exist" classname="BaseTest" time="0.007"/>
+  <testcase name="api-test-post" classname="BaseTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
